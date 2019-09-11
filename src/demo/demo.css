@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
+
+.application-container{
+    height: 100vh !important;
+    background: #3e3bff  !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.app-title-heading{
+    position: relative;
+    left: 2.5em;
+    font-size: 4.5em;
+    line-height: 0.8em;
+    margin: 20px auto;
+    font-family: 'Open Sans', sans-serif !important;
+    color:white;
+}
+
+.owl-theme{
+    right: -15em;
+}
+
+.app-title-subtext{
+    position: relative;
+    left: 7.5em;
+    font-size: 1.55em;
+    line-height: 1em;
+    margin: 0px auto;
+    font-family: 'Open Sans', sans-serif !important;
+    color: #aaa5ff;
+}
+
+
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    left: -30em;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot{
+    font-size: 3em;
+    font-weight: 800;
+    color: white;
+    opacity: 1 !important;
+    outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover, .owl-carousel button.owl-dot:hover{
+    background : none;
+}

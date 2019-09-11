@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,700,800&display=swap');
+
+.newsCard{
+    width: 90% !important;
+    font-family: 'Open Sans', sans-serif !important;
+    border-radius: 0px !important;
+}
+
+.MuiCardContent-root {
+    padding: 2em !important;
+    min-height: 150px;
+}
+
+.MuiTypography-h5{
+    font-family: 'Open Sans', sans-serif !important;
+    text-align: left;
+    font-weight: 800 !important;
+    font-size: 1.3rem !important;
+    color : #3a3a3a !important;
+}
+
+.MuiTypography-colorTextSecondary {
+    color: rgba(0, 0, 0, 0.54);
+    text-align: left;
+    padding-top: 1em;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 0.8rem !important;
+}
+
+.newsCard-image{
+    height: 200px;
+    width: auto;
+}
+
+.owl-theme .owl-dots {
+    display: none !important;
+}
+
+
+.MuiCardActions-root{
+    padding: 1em 1.5em !important;
+}
+
+
+.findout-More{
+    display: flex;
+    text-decoration: none;
+    font-weight: 700 !important;
+    color: #3e3bff !important;
+}
+
+.my-icon{
+    margin-right: 0.2em;
+}
